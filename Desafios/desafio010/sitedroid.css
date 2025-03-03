@@ -96,7 +96,7 @@ main {
     border-radius: 20px;
     background-image: url(imagens/techfontbege.jpg);
     margin: auto;
-    max-width: 1200px;
+    max-width: 1000px;
     min-width: 320px;
     box-shadow: 10px 10px #21350021;
 }
