@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: lightgray;
+    width: 300px;
+    height: 300px;
+
+    /*border-style: solid;
+    border-width: 10px;
+    border-color: darkblue;*/
+
+    /*SHORTHAND*/ border: solid 10px darkblue;
+
+    /*padding-top: 23px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;*/
+
+    /*SHORTHAND*/ padding: 10px 10px 10px 10px; /*Ou padding:10px; Todas as extremidade terão 10px por padrão*/
+
+    /*margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;*/
+
+    /*SHORTHAND*/ margin: 10px 10px 10px 10px;
+}
+
+a {
+    /*border-style: groove;
+    border-width: 23px;
+    border-color: blueviolet;*/
+
+    /*SHORTHAND*/ border: groove 23px blueviolet;
+
+}

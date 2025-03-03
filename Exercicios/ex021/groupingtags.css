@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@font-face {
+    font-family: sigmar;
+    src: url(fonts/sigmarregular.ttf);
+}
+@font-face {
+    font-family: hyper;
+    src: url(fonts/hyper.ttf);
+}
+
+body {
+    background-color: rgb(158, 157, 157);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+    background-color: rgb(190, 190, 190);
+    border-radius: 20px;
+}
+
+h1#titulo {
+    margin: 0;
+    font-weight: 30px;
+    font-size: 50px;
+    font-family: sigmar;
+    text-align: center;
+    box-shadow: 1px 30px 40px rgba(0, 0, 0, 0.178);
+}
+
+nav#links a:hover {
+    color: brown;
+}
+
+a:visited {
+    color: inherit;
+}
+
+nav#links {
+    border-radius: 20px;
+    font-family: hyper;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(179, 177, 177);
+}
+
+main {
+    background-color: rgb(190, 190, 190);
+    text-indent: 20px;
+    text-align: justify;
+    border-radius: 20px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    p {
+        padding: 10px;
+    }
+
+    article {
+        width: 1000px;
+    }
+
+    #citacao{
+        border-radius: 20px;
+        background-color: rgb(179, 177, 177);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    
+footer {
+    background-color: rgb(59, 59, 59);
+    color: white;
+}

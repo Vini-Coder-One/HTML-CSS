@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone_padrao.ico" type="image/x-icon">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/cachorro-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/cachorro-m.png" type="image/png">
+        <img src="imagens/cachorro-g.png" alt="Imagem Flexivel">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reroduzir audio em HTML5.</p>
+    <audio controls preload="metadata" loop>
+        <source src="audio/estrella.mp3" type="audio/mpeg">
+        <source src="audio/estrella.wav" type="audio/wav">
+        <source src="audio/estrella.ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não suporta áudio. <a href="audio/estrella.zip" download="estrella.mp3" type="application/zip" target="_blank">Clique AQUI</a>, e baixe o arquivo MP3</p>
+    </audio> <!--MP3 WAV OGG (Tipos de audio)-->
+</body>
+</html>
